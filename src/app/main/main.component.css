@@ -1,0 +1,10 @@
+main {
+  position: fixed;
+  top: 20vh;
+  width: 100vw;
+  height: 70vh;
+  background-color:aqua;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
