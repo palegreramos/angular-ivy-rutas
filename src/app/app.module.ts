@@ -19,10 +19,12 @@ import { registerLocaleData } from '@angular/common'; /* 3 */
 registerLocaleData(localeEs,'es'); /* 4 */
 
 const routes: Routes = [
+  
   { path: "home", component: HomeComponent },
   { path: "location", component: LocationComponent },
   { path: "about", component: AboutComponent },
   { path: "proximo", component: ProximoComponent},
+  { path: "", pathMatch: 'prefix', redirectTo: "home" },
   { path: "**", component: NotfoundComponent }
 ];
 
